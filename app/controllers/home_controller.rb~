@@ -1,0 +1,12 @@
+
+class HomeController < ApplicationController
+  def index
+	@result = (File.exists?('C:\\') ? `dir /-C` : `df .`).split("\n").last	
+	
+	@answer = Array.new
+	@answer = @result.split(" ")[5]
+	
+	
+	puts "mao"
+  end
+end

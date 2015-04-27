@@ -1,0 +1,4 @@
+<h1>Home#index</h1>
+<p>hellow world</p>
+ <%= @result %>
+ <%= @answer %>
