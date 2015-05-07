@@ -19,5 +19,9 @@ angular.module('RDash').config(['$stateProvider', '$urlRouterProvider',
                 url: '/tables',
                 templateUrl: 'templates/tables.html'
             });
+            .state('test', {
+                url: '/test/test',
+                templateUrl: 'templates/dashboard.html'
+            });
     }
 ]);
